@@ -4,6 +4,8 @@ ini_set('display_errors', 1);
 
 include 'Models/SQLiteConnection.php';
 include  'config.php';
+openOrCreateDB();
+
 //$pdo = (new SQLiteConnection())->connect();
 //if ($pdo != null)
 //    echo 'Connected to the SQLite database successfully!';
